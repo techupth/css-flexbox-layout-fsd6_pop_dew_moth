@@ -1,1 +1,40 @@
 /* Start coding here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Sarabun", sans-serif;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  height: 15vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 75vh;
+  margin: 1px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  margin: 1px;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: khaki;
+  height: 10vh;
+}
