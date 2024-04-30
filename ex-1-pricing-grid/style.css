@@ -1,1 +1,76 @@
-/* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "sarabun", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background-image: linear-gradient(
+    50deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  flex-basis: 33.3%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px 20px;
+  max-width: 250px;
+}
+
+.head-container {
+  font-size: 2.7rem;
+  color: white;
+  padding-bottom: 30px;
+  text-shadow: rgb(120, 117, 117) 1px 0 6px;
+}
+
+p {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+hr {
+  border: 1px solid rgba(52, 52, 52, 0.2);
+  border-radius: 4px;
+}
+
+.price {
+  font-size: 3rem;
+  padding: 10px 0 20px 0;
+}
+
+button {
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background-color: yellow;
+  font-weight: bolder;
+  transition-duration: 500ms;
+}
+
+button:hover {
+  transition-duration: 500ms;
+  cursor: pointer;
+  background-color: rgb(245, 173, 18);
+  box-shadow: rgb(218, 168, 3) 0px 2px 6px;
+}
